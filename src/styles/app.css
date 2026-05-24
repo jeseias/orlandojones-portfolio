@@ -2,6 +2,7 @@
 @import 'tailwindcss' source('../');
 @import "@fontsource-variable/manrope";
 @import "@fontsource-variable/inter";
+@import "@fontsource-variable/epilogue";
 
 html {
 	font-size: 62.5%;
@@ -11,6 +12,7 @@ html {
 @theme inline {
   --font-manrope: 'Manrope Variable', sans-serif;
   --font-inter: 'Inter Variable', sans-serif;
+  --font-epilogue: 'Epilogue Variable', sans-serif;
 }
 
 /* *, *::before, *::after {

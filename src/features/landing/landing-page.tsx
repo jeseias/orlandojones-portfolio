@@ -1,4 +1,5 @@
 import { HeroSection } from "./hero-section";
+import { QualificationSection } from "./qualification-section";
 import { SecondSection } from "./second-section";
 import { WorksSection } from "./works-section";
 
@@ -8,6 +9,7 @@ export const LandingPage = () => {
 			<HeroSection />
 			<SecondSection />
 			<WorksSection />
+      <QualificationSection />
 		</main>
 	);
 };

@@ -5,6 +5,7 @@
     "": {
       "name": "portfolio",
       "dependencies": {
+        "@fontsource-variable/epilogue": "^5.2.8",
         "@fontsource-variable/inter": "^5.2.8",
         "@fontsource-variable/manrope": "^5.2.8",
         "@tailwindcss/vite": "^4.3.0",
@@ -92,6 +93,8 @@
     "@emnapi/runtime": ["@emnapi/runtime@1.10.0", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA=="],
 
     "@emnapi/wasi-threads": ["@emnapi/wasi-threads@1.2.1", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w=="],
+
+    "@fontsource-variable/epilogue": ["@fontsource-variable/epilogue@5.2.8", "", {}, "sha512-YfO0l0GxR1cs9YsSmc+jMhD9uClAXXslPRiO0y1snJOpX5Y4Mn6uTRXgHsugo51mI+cLzFOyxp0g3O0CsnBHtA=="],
 
     "@fontsource-variable/inter": ["@fontsource-variable/inter@5.2.8", "", {}, "sha512-kOfP2D+ykbcX/P3IFnokOhVRNoTozo5/JxhAIVYLpea/UBmCQ/YWPBfWIDuBImXX/15KH+eKh4xpEUyS2sQQGQ=="],
 
