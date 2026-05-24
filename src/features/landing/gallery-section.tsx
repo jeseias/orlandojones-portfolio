@@ -53,7 +53,7 @@ export const GallerySection = () => {
 					Front-end, Designer grafico, UI Design, UX/UI Design Gestor de mídia
 					social.
 				</p>
-				<div className="flex flex-col gap-[0.8rem]">
+				<div className="flex flex-col gap-[0.8rem] mt-[2.4rem]">
 					{GALLERY_ROWS.map((row, rowIndex) => (
 						<div key={row.images[0]} className="flex h-[20rem] gap-[0.8rem]">
 							{row.images.map((src, imageIndex) => (
