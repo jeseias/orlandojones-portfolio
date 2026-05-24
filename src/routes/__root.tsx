@@ -8,6 +8,7 @@ import {
   Scripts,
 } from '@tanstack/react-router'
 import appCss from '../styles/app.css?url'
+import { Wrapper } from '../components/wrapper'
 
 export const Route = createRootRoute({
   head: () => ({
@@ -31,7 +32,9 @@ export const Route = createRootRoute({
 function RootComponent() {
   return (
     <RootDocument>
-      <Outlet />
+      <Wrapper>
+        <Outlet />
+      </Wrapper>
     </RootDocument>
   )
 }

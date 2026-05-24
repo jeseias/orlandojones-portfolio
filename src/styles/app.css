@@ -1,2 +1,18 @@
 /* src/styles/app.css */
 @import 'tailwindcss' source('../');
+@import "@fontsource-variable/manrope";
+
+html {
+  font-size: 62.5%;
+  font-family: 'Manrope Variable', sans-serif;
+}
+
+@theme inline {
+  --font-sans: 'Manrope Variable', sans-serif;
+}
+
+/* *, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
