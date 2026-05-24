@@ -19,8 +19,8 @@ export const WorksSection = () => {
 };
 
 type WorkProps = {
-  img?: string
-}
+	img?: string;
+};
 
 const Work = ({ img }: WorkProps) => {
 	return (

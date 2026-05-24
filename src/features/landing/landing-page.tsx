@@ -1,3 +1,5 @@
+import { FooterSection } from "./footer-section";
+import { GallerySection } from "./gallery-section";
 import { HeroSection } from "./hero-section";
 import { QualificationSection } from "./qualification-section";
 import { SecondSection } from "./second-section";
@@ -10,8 +12,10 @@ export const LandingPage = () => {
 			<HeroSection />
 			<SecondSection />
 			<WorksSection />
-      <QualificationSection />
-      <SkillsSection />
+			<QualificationSection />
+			<SkillsSection />
+			<GallerySection />
+			<FooterSection />
 		</main>
 	);
 };
