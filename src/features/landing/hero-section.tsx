@@ -15,14 +15,17 @@ export const HeroSection = () => {
 				quem investe.
 			</p>
 			<div className="flex justify-center mt-[2.4rem]">
-				<button type="button" className="flex items-center w-[26.4rem] h-[5.3rem] px-[3.2rem] bg-white text-[#6A6A6A] mr-[1.6rem] shadow-[0_0_4.8px_0_rgba(0,0,0,0.06)] cursor-pointer hover:opacity-90 transition-all ease-in-out duration-300">
+				<button
+					type="button"
+					className="flex items-center w-[26.4rem] h-[5.3rem] px-[3.2rem] bg-white text-[#6A6A6A] mr-[1.6rem] shadow-[0_0_4.8px_0_rgba(0,0,0,0.06)] cursor-pointer hover:opacity-90 transition-all ease-in-out duration-300"
+				>
 					<CopyIcon color="#6A6A6A" size={24} />
 					<span className="text-[#6A6A6A] font-medium text-[1.8rem] ml-[.8rem]">
 						Copiar o meu E-mail
 					</span>
 				</button>
 				<button
-          type="button"
+					type="button"
 					className={`bg-[#413F3A] h-[5.3rem] text-[1.8rem] text-white font-bold px-[1.6rem] cursor-pointer hover:opacity-90 transition-all ease-in-out duration-300`}
 				>
 					Fale comigo

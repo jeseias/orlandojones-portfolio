@@ -4,21 +4,23 @@ import ImgOne from "../../assets/img-1.png";
 
 export const SecondSection = () => {
 	return (
-		<section className="tainer mt-[15.99rem] flex justify-center">
+		<section className="tainer mt-[15.99rem] flex justify-center pb-[15rem]">
 			<div>
-        <div className="relative w-[27.452rem] h-[27.9rem] bg-[#F3DFCB] p-[2.522rem] text-[#343330] rotate-z-5 shadow-[0_4px_4px_0_#E1E1DE]">
-          <PinSVG className="absolute -top-1/18 left-50 -translate-x-1/6" />
-          <span className="font-normal text-[1.6rem] font-inter leading-[2.88rem] text-[#343330]">
-            Eu crio experiências web memoráveis ​​para marcas DE TODOS OS TAMANHOS.
-            Acredito que contar histórias autênticas é a chave para envolver
-            públicos, evocando emoções e impulsionando conversões.
-          </span>
-        </div>
-        <div className="px-[2.4rem] flex flex-col justify-center relative top-1/10 -left-4 bg-[#F2F0E9] w-[23rem] h-[7.4rem] text-[#343330] shadow-[0_4px_4px_0_#E1E1DE] text-[#343330] font-normal text-[1.6rem] font-inter">
-          <h4 className="flex"><MapPin color="#F2F0E9" fill="#d67a1f" /> Angola, Luanda</h4>
-          <p className="">15:32:28 PM</p>
-        </div>
-      </div>
+				<div className="relative w-[27.452rem] h-[27.9rem] bg-[#F3DFCB] p-[2.522rem] text-[#343330] rotate-z-5 shadow-[0_4px_4px_0_#E1E1DE]">
+					<PinSVG className="absolute -top-1/18 left-50 -translate-x-1/6" />
+					<span className="font-normal text-[1.6rem] font-inter leading-[2.88rem] text-[#343330]">
+						Eu crio experiências web memoráveis ​​para marcas DE TODOS OS
+						TAMANHOS. Acredito que contar histórias autênticas é a chave para
+						envolver públicos, evocando emoções e impulsionando conversões.
+					</span>
+				</div>
+				<div className="px-[2.4rem] flex flex-col justify-center relative top-1/10 -left-4 bg-[#F2F0E9] w-[23rem] h-[7.4rem] text-[#343330] shadow-[0_4px_4px_0_#E1E1DE] text-[#343330] font-normal text-[1.6rem] font-inter">
+					<h4 className="flex">
+						<MapPin color="#F2F0E9" fill="#d67a1f" /> Angola, Luanda
+					</h4>
+					<p className="">15:32:28 PM</p>
+				</div>
+			</div>
 			<div
 				className="border border-[#D9D9D9] border-[1.6rem] w-[66.4rem] h-[38.4rem] -rotate-5 relative top-15 left-20"
 				style={{
