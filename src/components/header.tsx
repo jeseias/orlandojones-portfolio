@@ -17,15 +17,20 @@ const NAV_ITEMS = [
 
 export const Header = () => {
   return (
-    <header className="h-[10.5rem] px-[3.2rem] flex items-center justify-between shadow-[0_5px_7.3px_0_rgba(67,67,67,0.06)]">
-      <LogoIcon />
-      <nav className="flex items-center gap-[4rem]">
-        {NAV_ITEMS.map((item) => (
-          <Link key={item.href} to={item.href} className="font-medium text-[1.6rem] text-[#3A4150]">
-            {item.label}
-          </Link>
-        ))}
-      </nav>
+    <header className="h-[10.5rem] shadow-[0_5px_7.3px_0_rgba(67,67,67,0.06)]">
+      <div className="h-full w-full max-w-[150rem] mx-auto px-[3.2rem] flex items-center justify-between">
+        <Link to="/">
+          <LogoIcon />
+        </Link>
+
+        <nav className="flex items-center gap-[4rem]">
+          {NAV_ITEMS.map((item) => (
+            <Link key={item.href} to={item.href} className="font-medium text-[1.6rem] text-[#3A4150]">
+              {item.label}
+            </Link>
+          ))}
+        </nav>
+      </div>
     </header>
   )
 }

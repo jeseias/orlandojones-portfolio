@@ -8,7 +8,7 @@ html {
 }
 
 @theme inline {
-  --font-sans: 'Manrope Variable', sans-serif;
+  --font-manrope: 'Manrope Variable', sans-serif;
 }
 
 /* *, *::before, *::after {
