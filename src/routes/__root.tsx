@@ -1,54 +1,55 @@
 // src/routes/__root.tsx
 /// <reference types="vite/client" />
-import type { ReactNode } from 'react'
+
 import {
-  Outlet,
-  createRootRoute,
-  HeadContent,
-  Scripts,
-} from '@tanstack/react-router'
-import appCss from '../styles/app.css?url'
-import { Wrapper } from '../components/wrapper'
+	createRootRoute,
+	HeadContent,
+	Outlet,
+	Scripts,
+} from "@tanstack/react-router";
+import type { ReactNode } from "react";
+import { Wrapper } from "../components/wrapper";
+import appCss from "../styles/app.css?url";
 
 export const Route = createRootRoute({
-  head: () => ({
-    meta: [
-      {
-        charSet: 'utf-8',
-      },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1',
-      },
-      {
-        title: 'Orlando MJ',
-      },
-    ],
-    links: [{ rel: 'stylesheet', href: appCss }],
-  }),
-  component: RootComponent,
-})
+	head: () => ({
+		meta: [
+			{
+				charSet: "utf-8",
+			},
+			{
+				name: "viewport",
+				content: "width=device-width, initial-scale=1",
+			},
+			{
+				title: "Orlando MJ",
+			},
+		],
+		links: [{ rel: "stylesheet", href: appCss }],
+	}),
+	component: RootComponent,
+});
 
 function RootComponent() {
-  return (
-    <RootDocument>
-      <Wrapper>
-        <Outlet />
-      </Wrapper>
-    </RootDocument>
-  )
+	return (
+		<RootDocument>
+			<Wrapper>
+				<Outlet />
+			</Wrapper>
+		</RootDocument>
+	);
 }
 
 function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
-  return (
-    <html>
-      <head>
-        <HeadContent />
-      </head>
-      <body>
-        {children}
-        <Scripts />
-      </body>
-    </html>
-  )
+	return (
+		<html>
+			<head>
+				<HeadContent />
+			</head>
+			<body>
+				{children}
+				<Scripts />
+			</body>
+		</html>
+	);
 }

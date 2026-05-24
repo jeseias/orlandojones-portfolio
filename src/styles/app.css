@@ -1,14 +1,16 @@
 /* src/styles/app.css */
 @import 'tailwindcss' source('../');
 @import "@fontsource-variable/manrope";
+@import "@fontsource-variable/inter";
 
 html {
-  font-size: 62.5%;
-  font-family: 'Manrope Variable', sans-serif;
+	font-size: 62.5%;
+	font-family: "Manrope Variable", sans-serif;
 }
 
 @theme inline {
   --font-manrope: 'Manrope Variable', sans-serif;
+  --font-inter: 'Inter Variable', sans-serif;
 }
 
 /* *, *::before, *::after {
@@ -16,3 +18,7 @@ html {
   margin: 0;
   padding: 0;
 } */
+
+.tainer {
+	@apply w-full max-w-[123.3rem] mx-auto;
+}
